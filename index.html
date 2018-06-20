@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
+    <script type = "text/javascript" src="angular.js"></script>
+    <script type = "text/javascript" src="angular-route.js"></script>
+    <script type = "text/javascript" src="main.js"></script>
+</head>
+<body>
+    <header>
+        <ul class = "nav">
+            <li display: inline><a href = "#/">Home</a></li>
+            <li display: inline><a href = "#second">Second</a></li>
+
+        </ul>
+
+
+    </header>
+    <div class = "container">
+        <div ng-view></div>
+    <!--<div ng-controller="myController">
+        Enter text: <input type = "text" ng-model="testmodel">
+        <div ng-if="testmodel.length < char">
+            <p> Must be atleast 5 characters</p>
+        </div>
+        <div class = 'container'></div>
+    -->
+        <!--<div ng-view></div>
+        <hr/>
+
+        <p> {{testmodel}} </p>
+        -->
+        </div>
+    </div>
+</body>
+</html>
