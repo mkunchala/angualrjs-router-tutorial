@@ -3,7 +3,7 @@
 var myApp = angular.module('myApp', ['ngRoute']);
 
 /**
- * routes
+ * routes-12
  */
 myApp.config(function ($routeProvider,$locationProvider) {
     $locationProvider.hashPrefix('');
